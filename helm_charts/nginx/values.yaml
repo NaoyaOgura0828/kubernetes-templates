@@ -16,6 +16,3 @@ containerPort: 80
 
 cpuSize: 0.25
 memorySize: 0.5
-
-securityGroups:
-  albSecurityGroup: sg-0775ee8b6974c41bd
