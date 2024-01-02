@@ -4,7 +4,7 @@
 update_resource() {
     RESOURCE_NAME=$1
 
-    helm upgrade ${RESOURCE_NAME} ./charts/${RESOURCE_NAME}
+    helm upgrade ${RESOURCE_NAME} ./helm_charts/${RESOURCE_NAME}
 
 }
 

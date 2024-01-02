@@ -4,7 +4,7 @@
 deploy_resource() {
     RESOURCE_NAME=$1
 
-    helm install ${RESOURCE_NAME} ./charts/${RESOURCE_NAME}
+    helm install ${RESOURCE_NAME} ./helm_charts/${RESOURCE_NAME}
 
 }
 
