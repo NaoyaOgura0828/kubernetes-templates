@@ -52,7 +52,7 @@ update_kubeconfig() {
 #####################################
 # update_kubeconfig ${CLUSTER_NAME} ${REGION_NAME_CAPETOWN}
 # update_kubeconfig ${CLUSTER_NAME} ${REGION_NAME_HONGKONG}
-# update_kubeconfig ${CLUSTER_NAME} ${REGION_NAME_TOKYO}
+update_kubeconfig ${CLUSTER_NAME} ${REGION_NAME_TOKYO}
 # update_kubeconfig ${CLUSTER_NAME} ${REGION_NAME_SEOUL}
 # update_kubeconfig ${CLUSTER_NAME} ${REGION_NAME_OSAKA}
 # update_kubeconfig ${CLUSTER_NAME} ${REGION_NAME_MUMBAI}
