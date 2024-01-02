@@ -1,7 +1,9 @@
 #!/bin/bash
 
 # Set CLusterName
-CLUSTER_NAME=template-dev-eks-cluster
+SYSTEM_NAME=template
+ENV_TYPE=dev
+CLUSTER_NAME=${SYSTEM_NAME}-${ENV_TYPE}-eks-cluster
 
 # Region List
 REGION_NAME_CAPETOWN=af-south-1
